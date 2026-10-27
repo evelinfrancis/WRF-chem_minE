@@ -1,0 +1,334 @@
+# See options.txt for a (somewhat up to date) list of the 
+# options that may be specified here.
+===============================
+# Add following lines to the GEOGRID.TBL to introduce EMIT, J2014 & C1999 to WPS
+===============================
+
+name=EMIT_CALCITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        smooth_option=0
+        rel_path=emit_calcite
+        missing_value = 0
+        fill_missing = 0
+        
+===============================
+
+name=EMIT_CHLORITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        smooth_option=0
+        rel_path=emit_chlorite
+        missing_value = 0
+        fill_missing = 0
+
+===============================
+
+name=EMIT_DOLOMITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        smooth_option=0
+        rel_path=emit_dolomite
+        missing_value = 0
+        fill_missing = 0
+
+===============================
+
+name=EMIT_GOETHITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        smooth_option=0
+        rel_path=emit_goethite
+        missing_value = 0
+        fill_missing = 0
+
+===============================
+
+name=EMIT_GYPSUM
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        smooth_option=0
+        rel_path=emit_gypsum
+        missing_value = 0
+        fill_missing = 0
+
+===============================
+
+name=EMIT_HEMATITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        smooth_option=0
+        rel_path=emit_hematite
+        missing_value = 0
+        fill_missing = 0
+
+===============================
+
+name=EMIT_ILLITE_MUSCOVITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        smooth_option=0
+        rel_path=emit_illite_muscovite
+        missing_value = 0
+        fill_missing = 0
+
+===============================
+
+name=EMIT_KAOLINITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        smooth_option=0
+        rel_path=emit_kaolinite
+        missing_value = 0
+        fill_missing = 0
+
+===============================
+
+name=EMIT_MONTMORILLONITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        smooth_option=0
+        rel_path=emit_montmorillonite
+        missing_value = 0
+        fill_missing = 0
+
+===============================
+
+name=EMIT_VERMICULITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        smooth_option=0
+        rel_path=emit_vermiculite
+        missing_value = 0
+        fill_missing = 0
+
+===============================
+
+name=EMIT_QUARTZ_FELDSPAR
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        smooth_option=0
+        rel_path=emit_quartz_feldspar
+        missing_value = 0
+        fill_missing = 0
+
+===============================
+name=J2014_CLAY_CALCITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=j2014_clay_calcite
+===============================
+name=J2014_CLAY_ CHLORITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_clay_chlorite
+===============================
+name=J2014_CLAY_ FELDSPARS
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_clay_feldspars
+===============================
+name=J2014_CLAY_ GOETHITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_clay_goethite
+===============================
+name=J2014_CLAY_ HEMATITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_clay_hematite
+===============================
+name=J2014_CLAY_ ILLITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_clay_illite
+===============================
+name=J2014_CLAY_ KAOLINITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_clay_kaolinite
+===============================
+name=J2014_CLAY_ QUARTZ
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_clay_quartz
+===============================
+name=J2014_CLAY_ SMECTITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_clay_smectite
+===============================
+name=J2014_CLAY_ VERMICULITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_clay_vermiculite
+===============================
+name=J2014_ SILT_CALCITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_silt_calcite
+===============================
+name=J2014_ SILT_ CHLORITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_silt_chlorite
+===============================
+name= J2014_ SILT_FELDSPARS
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_silt_feldspars
+===============================
+name= J2014_ SILT_ GOETHITE
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_silt_goethite
+===============================
+name= J2014_ SILT_ GYPSUM
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_silt_gypsum
+===============================
+name= J2014_ SILT_ MICA
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_silt_mica
+===============================
+name= J2014_ SILT_ QUARTZ
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path= j2014_silt_quartz
+===============================
+
+===============================
+name=c1999_clay_illi
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_clay_illi
+
+===============================
+name=c1999_clay_kaol
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_clay_kaol
+
+===============================
+name=c1999_clay_mont
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_clay_mont
+
+===============================
+name=c1999_clay_calc
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_clay_calc
+
+===============================
+name=c1999_clay_quar
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_clay_quar
+
+===============================
+name=c1999_clay_feld
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_clay_feld
+
+===============================
+name=c1999_clay_hema
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_clay_hema
+
+===============================
+name=c1999_clay_gyps
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_clay_gyps
+
+===============================
+name=c1999_silt_calc
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_silt_calc
+
+===============================
+name=c1999_silt_quar
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_silt_quar
+
+===============================
+name=c1999_silt_feld
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_silt_feld
+
+===============================
+name=c1999_silt_hema
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_silt_hema
+
+===============================
+name=c1999_silt_gyps
+        priority=1
+        dest_type=continuous
+        interp_option=default:average_gcell(0.0)+average_4pt+nearest_neighbor
+        rel_path=c1999_silt_gyps
+
+================================
+
+
+
+
+
+
+
+
+
+
+
+
+
